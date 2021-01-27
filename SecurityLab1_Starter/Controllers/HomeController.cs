@@ -8,6 +8,7 @@ namespace SecurityLab1_Starter.Controllers
 {
     public class HomeController : Controller
     {
+        [HandleError]
         public ActionResult Index()
         {
             return View();
